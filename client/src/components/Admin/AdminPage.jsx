@@ -200,7 +200,7 @@ const AdminPage = () => {
   label="Price"
   placeholder="Enter price"
   value={editedResidency.price}
-  onChange={(event) => handleInputChange("price", event)}
+  onChange={(value) => handleInputChangeForCount("price", value)}
   required
 />
 
