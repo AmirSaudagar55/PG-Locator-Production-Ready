@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-tye2gwc6gzgtkl5j.us.auth0.com"
      clientId="Iw8lvRvV0LGexPaXz18ZyO8rfDwiV4UQ"
      authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://pg-locator-production-ready.vercel.app"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"
